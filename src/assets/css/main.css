@@ -1,0 +1,30 @@
+
+.tab div:first-child .input-new-tag input {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-right: 0;
+}
+
+.tab div:last-child .input-new-tag input {
+  border-left: 0;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.el-cascader-menu .el-radio {
+  display: table;
+  vertical-align: middle;
+  width: 90%;
+  height: 100%;
+  position: absolute;
+  box-sizing: border-box;
+  margin-left: -20px;
+  padding-left: 10px;
+}
+
+.el-cascader-menu .el-radio .el-radio__input {
+  display: table-cell;
+  vertical-align: middle;
+}
